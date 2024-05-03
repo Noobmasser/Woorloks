@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd9e6c3efeecb04c9652f7f772f1d89, type: 3}
+  m_Name: Shrapnel
+  m_EditorClassIdentifier: 
+  id: 0
+  range: 20
+  cooldown: 3
+  globalCooldown: 0
+  globalCooldownCategory: 0
+  castTime: 1
+  channelingInterval: 0
+  prolongationTime: 0
+  maxStacks: 1
+  school: 0
+  validTargets: 0
+  flags: -1
+  type: 1
+  effects:
+  - {fileID: 11400000, guid: 87666b2539d8a3f4ca469eeac9f0dc71, type: 2}
+  category: {fileID: 11400000, guid: 7949f7397732a6b4a9ff4b63b07549a4, type: 2}

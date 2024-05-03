@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd9e6c3efeecb04c9652f7f772f1d89, type: 3}
+  m_Name: Meteor
+  m_EditorClassIdentifier: 
+  id: 0
+  range: 30
+  cooldown: 14
+  globalCooldown: 0
+  globalCooldownCategory: 0
+  castTime: 0
+  channelingInterval: 0
+  prolongationTime: 0
+  maxStacks: 1
+  school: 0
+  validTargets: 1
+  flags: 0
+  type: 1
+  effects:
+  - {fileID: 11400000, guid: 7fdfd060248712741a03d942f96e103e, type: 2}
+  category: {fileID: 11400000, guid: 0363b38288528b247ae4b14504a9572a, type: 2}
