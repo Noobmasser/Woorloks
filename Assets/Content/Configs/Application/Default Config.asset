@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c3eb3e6fb71cf479fa2ee3d38f9fc9, type: 3}
+  m_Name: Default Config
+  m_EditorClassIdentifier: 
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  unitLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  maxUnitsInArea: 500
+  unitPrefab: {fileID: 114273226617863818, guid: f5a3010afa0f54f2e96e892acec947c4,
+    type: 2}
+  levels:
+  - levelName: Level_01
+    playerData: {fileID: 11400000, guid: e7518435e5b27ad4ca7407407000c438, type: 2}
+    playerTeamTag: player
